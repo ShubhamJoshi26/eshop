@@ -1,0 +1,52 @@
+    [
+        {
+            "name": "Dashboard",
+            "slug": "dashboard",
+            "permission": "dashboard",
+            "sub":null
+        },
+        {
+            "name": "Authentication",
+            "slug": "#",
+            "permission":"authentication",
+            "sub": [
+                {
+                    "name": "Role",
+                    "slug": "role",
+                    "permissoin":"view role",
+                    "sub":null
+                },
+                {
+                    "name": "Permission",
+                    "slug": "permissions",
+                    "permissoin":"view permission",
+                    "sub": null
+                },
+                {
+                    "name": "Users",
+                    "slug": "users",
+                    "permissoin":"view user",
+                    "sub": null
+                }
+            ]
+        },
+        {
+            "name": "Users",
+            "slug": "#",
+            "permission":"view users",
+            "sub": [
+                {
+                    "name": "Vendors",
+                    "slug": "vendor",
+                    "permission":"view vendor",
+                    "sub": null
+                },
+                {
+                    "name": "Customers",
+                    "slug": "customer",
+                    "permission":"view customer",
+                    "sub": null
+                }
+            ]
+        }
+    ]
